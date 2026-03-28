@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Assets/Css/Home/index.css">
+    <title>Portfólio</title>
 </head>
 <body>
-    
+
+<!-- SIDEBAR -->
+    <aside class="sidebar">
+        <nav class="sidebar-nav">
+            <div class="active-indicator"></div>
+            <ul>
+
+                <li>
+                    <a href="#home" data-section="home" aria-label="Início">
+                        <span class="dot"></span>
+                        <span class="sr-only">Início</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#sobre" data-section="sobre" aria-label="Sobre">
+                        <span class="dot"></span>
+                        <span class="sr-only">Sobre</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#habilidades" data-section="habilidades" aria-label="Habilidades">
+                        <span class="dot"></span>
+                        <span class="sr-only">Habilidades</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projetos" data-section="projetos" aria-label="Projetos">
+                        <span class="dot"></span>
+                        <span class="sr-only">Projetos</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contato" data-section="contato" aria-label="Contato">
+                        <span class="dot"></span>
+                        <span class="sr-only">Contato</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </aside>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main-content" id="main-content">
+
+        <!-- HERO / HOME -->
+        <section id="home" data-section="home" class="section section-home">
+            <div class="container">
+                <h1>Nome</h1>
+                <p>Resumo curto / tagline</p>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" data-section="sobre" class="section section-about">
+            <div class="container">
+                <h2>Sobre</h2>
+                <p>Descrição sobre você</p>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades" data-section="habilidades" class="section section-skills">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Skill 1</li>
+                    <li>Skill 2</li>
+                    <li>Skill 3</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" data-section="projetos" class="section section-projects">
+            <div class="container">
+                <h2>Projetos</h2>
+
+                <article class="project-card">
+                    <h3>Projeto: Anti-Anima</h3>
+                    <p>Descrição do projeto</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" data-section="contato" class="section section-contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Email / LinkedIn / GitHub</p>
+            </div>
+        </section>
+
+    </main>
+
 </body>
+<script type="module" src="Assets\JS\main_index.js"></script>
 </html>
